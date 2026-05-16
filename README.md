@@ -57,17 +57,17 @@ Star Schema:  Data model design pattern
 
 **✨ Features & Highlights**
 
-✅ Custom dim_Date table built with DAX instead of Power BI's default auto date/time
-✅ Star schema with clearly separated fact and dimension tables
-✅ Two-page report structure — overview + customer drill-down
-✅ Multi-currency sales analysis
-✅ Month-level time intelligence using the custom date table
-✅ Customer-level pivot for granular revenue attribution
+* Custom dim_Date table built with DAX instead of Power BI's default auto date/time
+* Star schema with clearly separated fact and dimension tables
+* Two-page report structure — overview + customer drill-down
+* Multi-currency sales analysis
+* Month-level time intelligence using the custom date table
+* Customer-level pivot for granular revenue attribution
 
 **🎓 Learning Context**
-Built as part of a mini project series from the 365 Data Science Power BI course, which covers:
+✅ Built as part of a mini project series from the 365 Data Science Power BI course, which covers:
 
-*Loading and transforming data with Power Query
-*Building a star schema data model
-*Writing DAX to create a date dimension
-*Designing multi-page reports with bar charts and matrix visuals
+* Loading and transforming data with Power Query
+* Building a star schema data model
+* Writing DAX to create a date dimension
+* Designing multi-page reports with bar charts and matrix visuals
