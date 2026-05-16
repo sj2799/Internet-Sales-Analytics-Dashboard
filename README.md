@@ -16,8 +16,8 @@ Page 1 — Sales Overview
 * Bar Chart: Total Sales Amount broken down by Month (using the custom dim_Date table)
 
 Page 2 — Customer Breakdown
-*Pivot/Matrix Table: Sales Amount by Customer Email Address (rows) × Currency Code (columns)
- Useful for identifying high-value customers and their preferred currencies
+* Matrix Table: Sales Amount by Customer Email Address (rows) × Currency Code (columns)
+  Useful for identifying high-value customers and their preferred currencies
 
 **🗃 Data Model**
 The project follows a star schema design with one fact table and two dimension tables, plus a custom date dimension:
