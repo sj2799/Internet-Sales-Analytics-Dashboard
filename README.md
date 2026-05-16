@@ -22,11 +22,12 @@ Page 2 — Customer Breakdown
 **🗃 Data Model**
 The project follows a star schema design with one fact table and two dimension tables, plus a custom date dimension:
 
-Table || Description
-fact_InternetSales:  Core sales transactions — revenue, cost, quantity
-dim_Customer:  Customer demographics and contact info
-dim_Currency: Currency codes and names
-dim_Date:  Custom DAX-built date dimension
+| Table | Description |
+|---|---|
+| `fact_InternetSales` | Core sales transactions — revenue, cost, quantity |
+| `dim_Customer` | Customer demographics and contact info |
+| `dim_Currency` | Currency codes and names |
+| `dim_Date` | Custom DAX-built date dimension |
 
 **⚙️ DAX Formulas**
 * Custom Date Table (dim_Date): Built entirely in DAX using ADDCOLUMNS + CALENDAR to dynamically span the range of the sales data:
